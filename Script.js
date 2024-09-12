@@ -1,6 +1,6 @@
-//import apiKey from "./config";
-require('dotenv').config();
-const apiKey = process.env.API_KEY;
+import apiKey from "./config";
+// require('dotenv').config();
+// const apiKey = process.env.API_KEY;
 const apiUrl = 'https://quizapi.io/api/v1/questions?difficulty=easy&tags=JavaScript';
 
 
