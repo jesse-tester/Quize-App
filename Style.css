@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: 'monospace', Courier, monospace;
+    font-size: larger;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgba(42, 42, 42, 0.888);
+    border: solid;
+    border-radius: 20px;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+#quize-question {
+    font-weight: bolder;
+    font-size: 23px;
+    color: #ffffff;
+    background-color: #ea9b07;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.quize-info-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start */
+    gap: 150px;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+
+#quize-timer, #quize-score {
+    background-color: #eaea1d;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quize-timer .material-symbols-outlined, .quize-score .material-symbols-outlined {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.quize-answers {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.quize-answers li {
+    background-color: #987951;
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.quize-answers li:hover {
+    background-color: #da822452;
+}
+
+.quize-button {
+    background-color: #ea9b07;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 8px 16px rgba(4, 4, 4, 0.4);
+}
+
+.quize-button:hover {
+    background-color: #c67f04;
+}
+
+.quize-button:active {
+    border: 3px solid black;
+}
+
+#selected-option{
+    background-color: #ea9b07;
+    color: white;
+}

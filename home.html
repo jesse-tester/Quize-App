@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body onload="mainGameLoop()">
+    <div class="container">
+        <div id="quize-question">
+            What will the Question would Look like in the User Interface?.
+            <div class="quize-info-container">
+                <div id="quize-timer"> <span class="material-symbols-outlined">
+                    timer
+                    </span></div>
+                <div id="quize-score">
+                    <span class="material-symbols-outlined">
+                        target
+                        </span>  
+                    </div>
+            </div>
+        </div>
+        <ul class="quize-answers " id="quize-answers">
+            <li>Test Answer 1</li>
+            <li id="selected-option">Test Answer 2</li>
+            <li>Test Answer 3</li>
+            <li>Test Answer 4</li>
+        </ul>
+        <button class="quize-button" onclick="setScore()">Submit</button>
+    </div>
+    <div id="count-down-timer">
+        
+    </div>
+</body>
+</html>
